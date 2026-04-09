@@ -3,6 +3,8 @@
  * Parallel multi-agent research system for context window limitation bypass
  */
 
+export type AggregationStrategy = 'consensus' | 'majority_voting' | 'averaging' | 'weighted_consensus';
+
 export interface ResearchTask {
   taskId: string;
   query: string;

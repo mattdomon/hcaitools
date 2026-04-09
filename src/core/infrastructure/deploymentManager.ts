@@ -10,7 +10,6 @@ import {
   DeploymentStatus,
   Instance,
   DatabaseInstance,
-  Backup,
 } from './types';
 
 export class CloudDeploymentManager implements DeploymentManager {
@@ -87,7 +86,7 @@ export class CloudDeploymentManager implements DeploymentManager {
     return deployment;
   }
 
-  async rollback(deploymentId: string, version: string): Promise<DeploymentState> {
+  async rollback(deploymentId: string, _version: string): Promise<DeploymentState> {
     const deployment = this.deployments.get(deploymentId);
 
     if (!deployment) {
@@ -106,7 +105,7 @@ export class CloudDeploymentManager implements DeploymentManager {
 
   async blueGreenDeploy(
     deploymentId: string,
-    newVersion: string
+    _newVersion: string
   ): Promise<DeploymentState> {
     const deployment = this.deployments.get(deploymentId);
 
@@ -146,7 +145,7 @@ export class CloudDeploymentManager implements DeploymentManager {
     return instances;
   }
 
-  private async setupDatabase(config: DeploymentConfig): Promise<DatabaseInstance> {
+  private async setupDatabase(_config: DeploymentConfig): Promise<DatabaseInstance> {
     return {
       instanceId: `db_${this.generateDeploymentId()}`,
       status: 'running',

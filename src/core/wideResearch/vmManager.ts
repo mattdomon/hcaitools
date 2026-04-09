@@ -56,7 +56,7 @@ export class VMManager implements VirtualMachineManager {
     }, 100);
   }
 
-  async listVMs(taskId: string): Promise<VirtualMachine[]> {
+  async listVMs(_taskId: string): Promise<VirtualMachine[]> {
     const vms: VirtualMachine[] = [];
 
     for (const [, vm] of this.vms) {

@@ -1,0 +1,81 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║          Ralph for OpenCode - Installation Complete              ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+✅ Project Cloned
+   Location: /Users/hc/Desktop/manus-clone/ralph
+
+✅ Core Files Installed
+   → scripts/ralph/ralph.sh          (Executable)
+   → scripts/ralph/prompt.md         (Amp template)
+   → scripts/ralph/CLAUDE.md         (Claude Code template)
+
+✅ Documentation Created
+   → RALPH_SETUP.md                  (Complete setup guide)
+   → QUICK_START.md                  (Quick start examples)
+   → prd.json.example                (PRD format reference)
+
+✅ Prerequisites Verified
+   ✓ jq installed at /usr/bin/jq
+   ✓ Git repository initialized
+   ✓ Git user configured (opencode@example.com)
+
+═══════════════════════════════════════════════════════════════════
+
+NEXT STEPS:
+
+1. Create your prd.json file:
+   └─ Copy from prd.json.example or follow QUICK_START.md
+
+2. Make your first git commit:
+   └─ git add prd.json
+   └─ git commit -m "Initial PRD"
+
+3. Run Ralph:
+   └─ ./scripts/ralph/ralph.sh              (default: Amp, 10 iterations)
+   └─ ./scripts/ralph/ralph.sh --tool claude 10  (Claude Code, 10 iterations)
+
+═══════════════════════════════════════════════════════════════════
+
+DIRECTORY STRUCTURE:
+
+manus-clone/
+├── ralph/                         # Original repo (reference)
+│   ├── README.md
+│   ├── prompt.md
+│   ├── CLAUDE.md
+│   ├── skills/                   # Skills for AI tools
+│   └── flowchart/               # Interactive visualization
+│
+├── scripts/
+│   └── ralph/
+│       ├── ralph.sh             # Main execution script
+│       ├── prompt.md            # Customizable Amp prompt
+│       └── CLAUDE.md            # Customizable Claude Code prompt
+│
+├── tasks/                        # Where PRDs are stored
+├── prd.json.example             # Format reference
+├── RALPH_SETUP.md               # Detailed setup guide
+├── QUICK_START.md               # Quick start examples
+└── .git/                         # Git repository
+
+═══════════════════════════════════════════════════════════════════
+
+KEY FEATURES:
+
+• Autonomous AI Agent Loop - Ralph spawns fresh AI instances
+• Context Persistence - Memory via git history, progress.txt, prd.json
+• Small Task Focus - Each story should fit in one context window
+• Quality Gates - Typecheck, tests, and CI verification
+• Progress Tracking - Append-only learnings in progress.txt
+
+═══════════════════════════════════════════════════════════════════
+
+DOCUMENTATION:
+
+For detailed information, see:
+• /Users/hc/Desktop/manus-clone/RALPH_SETUP.md
+• /Users/hc/Desktop/manus-clone/QUICK_START.md
+• /Users/hc/Desktop/manus-clone/ralph/README.md
+
+═══════════════════════════════════════════════════════════════════

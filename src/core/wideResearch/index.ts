@@ -24,10 +24,11 @@ export {
   VirtualMachineManager,
   ResearchAnalyzer,
   AnalysisResult,
+  AggregationStrategy,
 } from './types';
 
 export { VMManager } from './vmManager';
-export { ResearchOrchestrator } from './orchestrator';
+export { ResearchOrchestrator as ResearchOrchestratorClass } from './orchestrator';
 
 import { ResearchOrchestrator } from './orchestrator';
 import { ResearchObjective } from './types';

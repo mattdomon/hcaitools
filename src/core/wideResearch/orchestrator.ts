@@ -9,9 +9,7 @@ import {
   ResearchObjective,
   AggregatedResearch,
   TaskProgress,
-  ResearchOrchestrator,
   AgentInstance,
-  AgentStatus,
   ResearchResult,
   BarrierSynchronization,
   Finding,
@@ -19,7 +17,7 @@ import {
 } from './types';
 import { VMManager } from './vmManager';
 
-export class ResearchOrchestrator implements ResearchOrchestrator {
+export class ResearchOrchestrator {
   private tasks: Map<string, ResearchTask> = new Map();
   private agents: Map<string, AgentInstance> = new Map();
   private barriers: Map<string, BarrierSynchronization> = new Map();
@@ -302,7 +300,7 @@ export class ResearchOrchestrator implements ResearchOrchestrator {
     };
   }
 
-  private async signalBarrier(taskId: string, agentId: string): Promise<void> {
+  private async signalBarrier(taskId: string, _agentId: string): Promise<void> {
     const barrier = Array.from(this.barriers.values()).find((b) => b.taskId === taskId);
 
     if (barrier) {

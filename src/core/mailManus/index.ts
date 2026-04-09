@@ -25,7 +25,7 @@ export { MailManusTaskCreator } from './taskCreator';
 
 import { MailManusEmailParser } from './emailParser';
 import { MailManusTaskCreator } from './taskCreator';
-import { EmailMessage, AutomatedTask } from './types';
+import { AutomatedTask, TaskStatus } from './types';
 
 /**
  * MailManus
@@ -63,14 +63,14 @@ export class MailManus {
    * List all tasks
    */
   listTasks(status?: string) {
-    return this.taskCreator.listTasks(status as any);
+    return this.taskCreator.listTasks(status as TaskStatus | undefined);
   }
 
   /**
    * Update task status
    */
   async updateTask(taskId: string, status: string) {
-    return this.taskCreator.updateTaskStatus(taskId, status as any);
+    return this.taskCreator.updateTaskStatus(taskId, status as TaskStatus);
   }
 
   /**

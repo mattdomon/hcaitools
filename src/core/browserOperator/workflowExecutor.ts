@@ -11,7 +11,7 @@ import {
   BrowserSession,
   StepResult,
   FormValidation,
-  TaskStatus,
+  RetryPolicy,
 } from './types';
 
 export class BrowserWorkflowExecutor implements WorkflowExecutor {
@@ -165,7 +165,7 @@ export class BrowserWorkflowExecutor implements WorkflowExecutor {
 
   async extractDataFromPage(
     selector: string,
-    session: BrowserSession
+    _session: BrowserSession
   ): Promise<unknown> {
     // Simulated data extraction
     // In production, would use Puppeteer or Playwright
@@ -179,7 +179,7 @@ export class BrowserWorkflowExecutor implements WorkflowExecutor {
   private async retryStep(
     step: WorkflowStep,
     sessionId: string,
-    retryPolicy: any
+    retryPolicy: RetryPolicy
   ): Promise<StepResult> {
     let lastError: Error | null = null;
     let delay = retryPolicy.initialDelayMs;

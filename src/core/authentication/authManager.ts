@@ -116,7 +116,7 @@ export class SecureAuthManager implements AuthManager {
     return secret;
   }
 
-  async verifyMFA(userId: string, code: string): Promise<boolean> {
+  async verifyMFA(userId: string, _code: string): Promise<boolean> {
     const user = this.users.get(userId);
     return user?.mfaEnabled ? true : false;
   }

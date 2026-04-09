@@ -5,7 +5,6 @@
 
 import {
   EmailMessage,
-  EmailAttachment,
   AutomatedTask,
   TaskType,
   Priority,
