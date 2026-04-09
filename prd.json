@@ -116,7 +116,7 @@
         "Support HTML and rich text email formats"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "notes": "",
       "technicalNotes": "Implement SMTP server, email parsing library, IMAP integration for inbox monitoring",
       "dependencies": [
