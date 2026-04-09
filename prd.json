@@ -93,12 +93,12 @@
         "Support lead assignment to sales team members",
         "Integrate with email and calendar for outreach tracking",
         "Provide lead health scoring algorithm",
-        "Support bulk lead import/export in CSV format"
-      ],
-      "priority": 1,
-      "passes": false,
-      "notes": ""
-    },
+       "Support bulk lead import/export in CSV format"
+       ],
+       "priority": 1,
+       "passes": true,
+       "notes": ""
+     },
     {
       "id": "US-WEBAPP-002",
       "category": "Web App Features",
