@@ -149,7 +149,7 @@
         "Support 3D Secure authentication for high-value transactions"
       ],
       "priority": 2,
-      "passes": false,
+      "passes": true,
       "notes": "",
       "technicalNotes": "Use Stripe API v1, implement secure webhook signature verification, PCI compliance required",
       "dependencies": [
