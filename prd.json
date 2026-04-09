@@ -135,12 +135,12 @@
         "Support usage-based billing with metered pricing",
         "Track payment history and generate revenue reports"
       ],
-      "priority": 1,
-      "passes": false,
-      "notes": ""
-    },
-    {
-      "id": "US-INT-002",
+       "priority": 1,
+       "passes": true,
+       "notes": ""
+     },
+     {
+       "id": "US-INT-002",
       "category": "Integrations",
       "title": "Database Integration & Schema Management",
       "description": "Generate and manage database schemas, migrations, and CRUD operations automatically",
