@@ -24,9 +24,16 @@
       "passes": true,
       "notes": "",
       "technicalNotes": "Use LLM with code generation capabilities, implement AST parsing for prompt analysis",
-      "dependencies": ["Database Integration (US-INT-002)", "User Authentication (US-WEBAPP-002)"],
+      "dependencies": [
+        "Database Integration (US-INT-002)",
+        "User Authentication (US-WEBAPP-002)"
+      ],
       "estimatedHours": 40,
-      "tags": ["core", "generation", "full-stack"]
+      "tags": [
+        "core",
+        "generation",
+        "full-stack"
+      ]
     },
     {
       "id": "US-CORE-002",
@@ -45,12 +52,19 @@
         "Support up to 50 concurrent browser operations"
       ],
       "priority": 1,
-      "passes": false,
+      "passes": true,
       "notes": "",
       "technicalNotes": "Requires Chrome extension manifest v3, secure encrypted WebSocket channel, local IP routing",
-      "dependencies": ["Browser Extension Framework", "Encryption Service"],
+      "dependencies": [
+        "Browser Extension Framework",
+        "Encryption Service"
+      ],
       "estimatedHours": 32,
-      "tags": ["core", "automation", "browser"]
+      "tags": [
+        "core",
+        "automation",
+        "browser"
+      ]
     },
     {
       "id": "US-CORE-003",
@@ -72,9 +86,18 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Requires distributed computing infrastructure, container orchestration (Kubernetes), Redis for task queuing",
-      "dependencies": ["AI Agent Framework", "Virtual Machine Management", "Task Queue System"],
+      "dependencies": [
+        "AI Agent Framework",
+        "Virtual Machine Management",
+        "Task Queue System"
+      ],
       "estimatedHours": 48,
-      "tags": ["core", "research", "parallel", "distributed"]
+      "tags": [
+        "core",
+        "research",
+        "parallel",
+        "distributed"
+      ]
     },
     {
       "id": "US-CORE-004",
@@ -96,9 +119,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement SMTP server, email parsing library, IMAP integration for inbox monitoring",
-      "dependencies": ["Email Service Infrastructure", "Task Management System"],
+      "dependencies": [
+        "Email Service Infrastructure",
+        "Task Management System"
+      ],
       "estimatedHours": 24,
-      "tags": ["core", "email", "automation", "workflow"]
+      "tags": [
+        "core",
+        "email",
+        "automation",
+        "workflow"
+      ]
     },
     {
       "id": "US-INT-001",
@@ -121,9 +152,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Stripe API v1, implement secure webhook signature verification, PCI compliance required",
-      "dependencies": ["Database Integration (US-INT-002)", "Security Module"],
+      "dependencies": [
+        "Database Integration (US-INT-002)",
+        "Security Module"
+      ],
       "estimatedHours": 20,
-      "tags": ["integration", "payment", "stripe", "billing"]
+      "tags": [
+        "integration",
+        "payment",
+        "stripe",
+        "billing"
+      ]
     },
     {
       "id": "US-INT-002",
@@ -146,9 +185,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Support both PostgreSQL and MongoDB, implement ORM patterns (TypeORM, Prisma), handle transaction management",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)", "API Generation System"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)",
+        "API Generation System"
+      ],
       "estimatedHours": 28,
-      "tags": ["integration", "database", "schema", "orm"]
+      "tags": [
+        "integration",
+        "database",
+        "schema",
+        "orm"
+      ]
     },
     {
       "id": "US-INT-003",
@@ -171,9 +218,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement Slack Bolt framework, secure webhook handling, file generation libraries (python-pptx, python-docx)",
-      "dependencies": ["Document Generation Engine", "File Storage Integration (US-INT-007)"],
+      "dependencies": [
+        "Document Generation Engine",
+        "File Storage Integration (US-INT-007)"
+      ],
       "estimatedHours": 18,
-      "tags": ["integration", "slack", "collaboration", "documents"]
+      "tags": [
+        "integration",
+        "slack",
+        "collaboration",
+        "documents"
+      ]
     },
     {
       "id": "US-INT-004",
@@ -196,9 +251,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Parse OpenAPI/Swagger specs, implement certificate pinning for mTLS, Redis for caching",
-      "dependencies": ["Security Module", "Code Generation System"],
+      "dependencies": [
+        "Security Module",
+        "Code Generation System"
+      ],
       "estimatedHours": 22,
-      "tags": ["integration", "api", "rest", "third-party"]
+      "tags": [
+        "integration",
+        "api",
+        "rest",
+        "third-party"
+      ]
     },
     {
       "id": "US-INT-005",
@@ -221,9 +284,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Google Maps API client library, implement query caching strategy",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 14,
-      "tags": ["integration", "maps", "geolocation", "google"]
+      "tags": [
+        "integration",
+        "maps",
+        "geolocation",
+        "google"
+      ]
     },
     {
       "id": "US-INT-006",
@@ -246,9 +316,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Integrate with Nano Banana and OpenAI APIs, implement image CDN for delivery",
-      "dependencies": ["File Storage Integration (US-INT-007)"],
+      "dependencies": [
+        "File Storage Integration (US-INT-007)"
+      ],
       "estimatedHours": 16,
-      "tags": ["integration", "image-generation", "ai-models"]
+      "tags": [
+        "integration",
+        "image-generation",
+        "ai-models"
+      ]
     },
     {
       "id": "US-INT-007",
@@ -271,9 +347,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Support AWS S3, Google Cloud Storage, Azure Blob Storage; implement multipart uploads",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 18,
-      "tags": ["integration", "file-storage", "cloud"]
+      "tags": [
+        "integration",
+        "file-storage",
+        "cloud"
+      ]
     },
     {
       "id": "US-INT-008",
@@ -296,9 +378,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement GraphQL with Apollo Server, OpenAPI/Swagger documentation, Celery for batch jobs",
-      "dependencies": ["Database Integration (US-INT-002)", "Authentication System"],
+      "dependencies": [
+        "Database Integration (US-INT-002)",
+        "Authentication System"
+      ],
       "estimatedHours": 20,
-      "tags": ["integration", "api", "data-export", "business-intelligence"]
+      "tags": [
+        "integration",
+        "api",
+        "data-export",
+        "business-intelligence"
+      ]
     },
     {
       "id": "US-INT-009",
@@ -321,9 +411,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Integrate Google Cloud Speech-to-Text or Azure Speech Services",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 16,
-      "tags": ["integration", "voice", "accessibility", "ai"]
+      "tags": [
+        "integration",
+        "voice",
+        "accessibility",
+        "ai"
+      ]
     },
     {
       "id": "US-INT-010",
@@ -346,9 +443,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement pub/sub pattern, support Twilio for SMS, Firebase for push notifications",
-      "dependencies": ["Event Bus System", "Email Service"],
+      "dependencies": [
+        "Event Bus System",
+        "Email Service"
+      ],
       "estimatedHours": 14,
-      "tags": ["integration", "notifications", "events", "real-time"]
+      "tags": [
+        "integration",
+        "notifications",
+        "events",
+        "real-time"
+      ]
     },
     {
       "id": "US-INT-011",
@@ -371,9 +476,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement SMTP/IMAP servers, email parsing libraries, OCR for attachments",
-      "dependencies": ["Email Infrastructure", "Task Management System"],
+      "dependencies": [
+        "Email Infrastructure",
+        "Task Management System"
+      ],
       "estimatedHours": 18,
-      "tags": ["integration", "email", "automation"]
+      "tags": [
+        "integration",
+        "email",
+        "automation"
+      ]
     },
     {
       "id": "US-TECH-001",
@@ -396,9 +508,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement server-side rendering (SSR), optimize Core Web Vitals metrics",
-      "dependencies": ["Web App Builder (US-CORE-001)"],
+      "dependencies": [
+        "Web App Builder (US-CORE-001)"
+      ],
       "estimatedHours": 16,
-      "tags": ["technical", "seo", "optimization"]
+      "tags": [
+        "technical",
+        "seo",
+        "optimization"
+      ]
     },
     {
       "id": "US-TECH-002",
@@ -421,9 +539,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement privacy-first analytics (no personal data collection), use time-series database for metrics",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 18,
-      "tags": ["technical", "analytics", "tracking", "metrics"]
+      "tags": [
+        "technical",
+        "analytics",
+        "tracking",
+        "metrics"
+      ]
     },
     {
       "id": "US-TECH-003",
@@ -446,9 +571,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement Git-like version control system or wrap Git internally",
-      "dependencies": ["Database Integration (US-INT-002)"],
+      "dependencies": [
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 20,
-      "tags": ["technical", "version-control", "git"]
+      "tags": [
+        "technical",
+        "version-control",
+        "git"
+      ]
     },
     {
       "id": "US-TECH-004",
@@ -471,9 +602,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement RBAC with attribute-based access control (ABAC) for flexibility",
-      "dependencies": ["Authentication System", "Database Integration (US-INT-002)"],
+      "dependencies": [
+        "Authentication System",
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 16,
-      "tags": ["technical", "permissions", "access-control", "security"]
+      "tags": [
+        "technical",
+        "permissions",
+        "access-control",
+        "security"
+      ]
     },
     {
       "id": "US-TECH-005",
@@ -496,9 +635,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Generate standards-compliant code (no proprietary formats), proper documentation",
-      "dependencies": ["Web App Builder (US-CORE-001)"],
+      "dependencies": [
+        "Web App Builder (US-CORE-001)"
+      ],
       "estimatedHours": 14,
-      "tags": ["technical", "export", "portability", "no-lock-in"]
+      "tags": [
+        "technical",
+        "export",
+        "portability",
+        "no-lock-in"
+      ]
     },
     {
       "id": "US-TECH-006",
@@ -521,9 +667,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement visual editor similar to Figma design tools",
-      "dependencies": ["Web App Builder (US-CORE-001)"],
+      "dependencies": [
+        "Web App Builder (US-CORE-001)"
+      ],
       "estimatedHours": 22,
-      "tags": ["technical", "design", "editor", "ui"]
+      "tags": [
+        "technical",
+        "design",
+        "editor",
+        "ui"
+      ]
     },
     {
       "id": "US-TECH-007",
@@ -546,9 +699,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Integrate domain registrar API, implement Let's Encrypt for SSL",
-      "dependencies": ["Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 12,
-      "tags": ["technical", "domains", "ssl", "dns"]
+      "tags": [
+        "technical",
+        "domains",
+        "ssl",
+        "dns"
+      ]
     },
     {
       "id": "US-TECH-008",
@@ -571,9 +731,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Kubernetes for orchestration, implement auto-scaling with monitoring",
-      "dependencies": ["Cloud Services Setup"],
+      "dependencies": [
+        "Cloud Services Setup"
+      ],
       "estimatedHours": 32,
-      "tags": ["technical", "infrastructure", "cloud", "devops"]
+      "tags": [
+        "technical",
+        "infrastructure",
+        "cloud",
+        "devops"
+      ]
     },
     {
       "id": "US-TECH-009",
@@ -596,9 +763,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use GitHub API v3, implement GitHub OAuth2",
-      "dependencies": ["Code Export (US-TECH-005)", "Version Control (US-TECH-003)"],
+      "dependencies": [
+        "Code Export (US-TECH-005)",
+        "Version Control (US-TECH-003)"
+      ],
       "estimatedHours": 18,
-      "tags": ["technical", "github", "integration", "cicd"]
+      "tags": [
+        "technical",
+        "github",
+        "integration",
+        "cicd"
+      ]
     },
     {
       "id": "US-TECH-010",
@@ -621,9 +796,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Figma API for design extraction, Figma Tokens for design system",
-      "dependencies": ["Design Editor (US-TECH-006)", "Code Generation System"],
+      "dependencies": [
+        "Design Editor (US-TECH-006)",
+        "Code Generation System"
+      ],
       "estimatedHours": 20,
-      "tags": ["technical", "figma", "design", "code-generation"]
+      "tags": [
+        "technical",
+        "figma",
+        "design",
+        "code-generation"
+      ]
     },
     {
       "id": "US-TECH-011",
@@ -646,9 +829,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use React Native for cross-platform mobile, App Store Connect and Google Play Console APIs",
-      "dependencies": ["Web App Builder (US-CORE-001)"],
+      "dependencies": [
+        "Web App Builder (US-CORE-001)"
+      ],
       "estimatedHours": 24,
-      "tags": ["technical", "mobile", "ios", "android", "app-store"]
+      "tags": [
+        "technical",
+        "mobile",
+        "ios",
+        "android",
+        "app-store"
+      ]
     },
     {
       "id": "US-COLLAB-001",
@@ -671,9 +862,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement CRDT algorithms (Yjs, Automerge), WebSocket for real-time sync",
-      "dependencies": ["Version Control (US-TECH-003)", "Permissions (US-TECH-004)"],
+      "dependencies": [
+        "Version Control (US-TECH-003)",
+        "Permissions (US-TECH-004)"
+      ],
       "estimatedHours": 24,
-      "tags": ["collaboration", "real-time", "teamwork"]
+      "tags": [
+        "collaboration",
+        "real-time",
+        "teamwork"
+      ]
     },
     {
       "id": "US-COLLAB-002",
@@ -696,9 +894,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement project hierarchy in database, support project-level resource quotas",
-      "dependencies": ["Database Integration (US-INT-002)"],
+      "dependencies": [
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 16,
-      "tags": ["collaboration", "projects", "organization"]
+      "tags": [
+        "collaboration",
+        "projects",
+        "organization"
+      ]
     },
     {
       "id": "US-COLLAB-003",
@@ -721,9 +925,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement skill registry and execution engine",
-      "dependencies": ["Task Execution Engine"],
+      "dependencies": [
+        "Task Execution Engine"
+      ],
       "estimatedHours": 18,
-      "tags": ["collaboration", "skills", "workflows", "automation"]
+      "tags": [
+        "collaboration",
+        "skills",
+        "workflows",
+        "automation"
+      ]
     },
     {
       "id": "US-COLLAB-004",
@@ -746,9 +957,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement SAML 2.0 and OpenID Connect, LDAP client",
-      "dependencies": ["Authentication System", "Billing System"],
+      "dependencies": [
+        "Authentication System",
+        "Billing System"
+      ],
       "estimatedHours": 20,
-      "tags": ["collaboration", "enterprise", "team-plan", "sso"]
+      "tags": [
+        "collaboration",
+        "enterprise",
+        "team-plan",
+        "sso"
+      ]
     },
     {
       "id": "US-COLLAB-005",
@@ -771,9 +990,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement comprehensive audit logging, policy engine",
-      "dependencies": ["Permissions (US-TECH-004)", "Authentication System"],
+      "dependencies": [
+        "Permissions (US-TECH-004)",
+        "Authentication System"
+      ],
       "estimatedHours": 18,
-      "tags": ["collaboration", "settings", "governance", "compliance"]
+      "tags": [
+        "collaboration",
+        "settings",
+        "governance",
+        "compliance"
+      ]
     },
     {
       "id": "US-WEBAPP-001",
@@ -796,9 +1023,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement form validation engine, spam detection, CRM webhook integration",
-      "dependencies": ["Database Integration (US-INT-002)", "Notifications (US-INT-010)"],
+      "dependencies": [
+        "Database Integration (US-INT-002)",
+        "Notifications (US-INT-010)"
+      ],
       "estimatedHours": 14,
-      "tags": ["webapp", "forms", "leads", "sales"]
+      "tags": [
+        "webapp",
+        "forms",
+        "leads",
+        "sales"
+      ]
     },
     {
       "id": "US-WEBAPP-002",
@@ -821,9 +1056,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use JWT for stateless auth, bcrypt for hashing, implement refresh token rotation",
-      "dependencies": ["Database Integration (US-INT-002)", "Email Service"],
+      "dependencies": [
+        "Database Integration (US-INT-002)",
+        "Email Service"
+      ],
       "estimatedHours": 16,
-      "tags": ["webapp", "authentication", "security"]
+      "tags": [
+        "webapp",
+        "authentication",
+        "security"
+      ]
     },
     {
       "id": "US-WEBAPP-003",
@@ -846,9 +1088,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement ORM patterns, query optimization, transaction management",
-      "dependencies": ["Database Integration (US-INT-002)"],
+      "dependencies": [
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 18,
-      "tags": ["webapp", "database", "crud"]
+      "tags": [
+        "webapp",
+        "database",
+        "crud"
+      ]
     },
     {
       "id": "US-WEBAPP-004",
@@ -871,9 +1119,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use WebSocket for real-time delivery, implement notification queue",
-      "dependencies": ["Real-Time Events System", "Notifications Integration (US-INT-010)"],
+      "dependencies": [
+        "Real-Time Events System",
+        "Notifications Integration (US-INT-010)"
+      ],
       "estimatedHours": 12,
-      "tags": ["webapp", "notifications", "real-time"]
+      "tags": [
+        "webapp",
+        "notifications",
+        "real-time"
+      ]
     },
     {
       "id": "US-WEBAPP-005",
@@ -896,9 +1151,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use LLM API with fine-tuning, implement conversation state management",
-      "dependencies": ["AI Integration", "Database Integration (US-INT-002)"],
+      "dependencies": [
+        "AI Integration",
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 18,
-      "tags": ["webapp", "chatbot", "ai", "support"]
+      "tags": [
+        "webapp",
+        "chatbot",
+        "ai",
+        "support"
+      ]
     },
     {
       "id": "US-WEBAPP-006",
@@ -921,9 +1184,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Integrate Stripe API, implement payment state machine",
-      "dependencies": ["Stripe Integration (US-INT-001)", "Database Integration (US-INT-002)"],
+      "dependencies": [
+        "Stripe Integration (US-INT-001)",
+        "Database Integration (US-INT-002)"
+      ],
       "estimatedHours": 16,
-      "tags": ["webapp", "payments", "ecommerce", "stripe"]
+      "tags": [
+        "webapp",
+        "payments",
+        "ecommerce",
+        "stripe"
+      ]
     },
     {
       "id": "US-TOOLS-001",
@@ -946,9 +1217,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Integrate image generation APIs, implement design editor UI",
-      "dependencies": ["Image Generation Integration (US-INT-006)"],
+      "dependencies": [
+        "Image Generation Integration (US-INT-006)"
+      ],
       "estimatedHours": 20,
-      "tags": ["tools", "design", "ai", "multimedia"]
+      "tags": [
+        "tools",
+        "design",
+        "ai",
+        "multimedia"
+      ]
     },
     {
       "id": "US-TOOLS-002",
@@ -971,9 +1249,16 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Nano Banana Pro model for text rendering, implement slide layout engine",
-      "dependencies": ["Image Generation Integration (US-INT-006)"],
+      "dependencies": [
+        "Image Generation Integration (US-INT-006)"
+      ],
       "estimatedHours": 18,
-      "tags": ["tools", "slides", "presentation", "nano-banana"]
+      "tags": [
+        "tools",
+        "slides",
+        "presentation",
+        "nano-banana"
+      ]
     },
     {
       "id": "US-TOOLS-003",
@@ -996,9 +1281,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use data analysis libraries (pandas, numpy), chart generation (plotly, D3.js)",
-      "dependencies": ["Data Integration", "Report Generation"],
+      "dependencies": [
+        "Data Integration",
+        "Report Generation"
+      ],
       "estimatedHours": 20,
-      "tags": ["tools", "analytics", "data", "visualization"]
+      "tags": [
+        "tools",
+        "analytics",
+        "data",
+        "visualization"
+      ]
     },
     {
       "id": "US-TOOLS-004",
@@ -1021,9 +1314,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use speech-to-text API, NLP for summary and action item extraction",
-      "dependencies": ["Voice Integration (US-INT-009)", "Document Generation"],
+      "dependencies": [
+        "Voice Integration (US-INT-009)",
+        "Document Generation"
+      ],
       "estimatedHours": 16,
-      "tags": ["tools", "meetings", "transcription", "summaries"]
+      "tags": [
+        "tools",
+        "meetings",
+        "transcription",
+        "summaries"
+      ]
     },
     {
       "id": "US-TOOLS-005",
@@ -1046,9 +1347,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement job scheduler (Celery, APScheduler), task queue system",
-      "dependencies": ["Task Execution Engine", "Notifications (US-INT-010)"],
+      "dependencies": [
+        "Task Execution Engine",
+        "Notifications (US-INT-010)"
+      ],
       "estimatedHours": 14,
-      "tags": ["tools", "automation", "scheduling", "workflow"]
+      "tags": [
+        "tools",
+        "automation",
+        "scheduling",
+        "workflow"
+      ]
     },
     {
       "id": "US-TOOLS-006",
@@ -1071,9 +1380,18 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use multimedia processing libraries (FFmpeg, PIL), computer vision APIs",
-      "dependencies": ["File Storage Integration (US-INT-007)", "Cloud Infrastructure (US-TECH-008)"],
+      "dependencies": [
+        "File Storage Integration (US-INT-007)",
+        "Cloud Infrastructure (US-TECH-008)"
+      ],
       "estimatedHours": 18,
-      "tags": ["tools", "multimedia", "video", "audio", "images"]
+      "tags": [
+        "tools",
+        "multimedia",
+        "video",
+        "audio",
+        "images"
+      ]
     },
     {
       "id": "US-TOOLS-007",
@@ -1096,9 +1414,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement Zapier platform API, webhook handling",
-      "dependencies": ["REST API Integration (US-INT-004)", "Webhooks System"],
+      "dependencies": [
+        "REST API Integration (US-INT-004)",
+        "Webhooks System"
+      ],
       "estimatedHours": 16,
-      "tags": ["tools", "zapier", "integration", "automation"]
+      "tags": [
+        "tools",
+        "zapier",
+        "integration",
+        "automation"
+      ]
     },
     {
       "id": "US-TOOLS-008",
@@ -1121,9 +1447,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement MCP protocol, support gRPC and HTTP transports",
-      "dependencies": ["API Framework", "Authentication System"],
+      "dependencies": [
+        "API Framework",
+        "Authentication System"
+      ],
       "estimatedHours": 20,
-      "tags": ["tools", "mcp", "integration", "enterprise"]
+      "tags": [
+        "tools",
+        "mcp",
+        "integration",
+        "enterprise"
+      ]
     },
     {
       "id": "US-TOOLS-009",
@@ -1146,9 +1480,15 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement data connector framework, support various API patterns",
-      "dependencies": ["REST API Integration (US-INT-004)"],
+      "dependencies": [
+        "REST API Integration (US-INT-004)"
+      ],
       "estimatedHours": 16,
-      "tags": ["tools", "data-sources", "integration"]
+      "tags": [
+        "tools",
+        "data-sources",
+        "integration"
+      ]
     },
     {
       "id": "US-TOOLS-010",
@@ -1171,9 +1511,17 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Implement REST and GraphQL APIs, API documentation (OpenAPI/Swagger)",
-      "dependencies": ["Data API (US-INT-008)", "Authentication System"],
+      "dependencies": [
+        "Data API (US-INT-008)",
+        "Authentication System"
+      ],
       "estimatedHours": 18,
-      "tags": ["tools", "api", "integration", "programmatic"]
+      "tags": [
+        "tools",
+        "api",
+        "integration",
+        "programmatic"
+      ]
     },
     {
       "id": "US-APPS-001",
@@ -1196,9 +1544,18 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use Electron framework, implement auto-updater with delta updates",
-      "dependencies": ["Web App Foundation"],
+      "dependencies": [
+        "Web App Foundation"
+      ],
       "estimatedHours": 24,
-      "tags": ["applications", "desktop", "electron", "windows", "macos", "linux"]
+      "tags": [
+        "applications",
+        "desktop",
+        "electron",
+        "windows",
+        "macos",
+        "linux"
+      ]
     },
     {
       "id": "US-APPS-002",
@@ -1221,9 +1578,18 @@
       "passes": false,
       "notes": "",
       "technicalNotes": "Use React Native, implement app signing and store submission automation",
-      "dependencies": ["Web App Foundation", "Mobile Apps Publishing (US-TECH-011)"],
+      "dependencies": [
+        "Web App Foundation",
+        "Mobile Apps Publishing (US-TECH-011)"
+      ],
       "estimatedHours": 28,
-      "tags": ["applications", "mobile", "ios", "android", "react-native"]
+      "tags": [
+        "applications",
+        "mobile",
+        "ios",
+        "android",
+        "react-native"
+      ]
     },
     {
       "id": "US-APPS-003",
@@ -1248,9 +1614,18 @@
       "passes": false,
       "notes": "OpenClaw is the client library that connects local machines to Manus cloud for distributed execution",
       "technicalNotes": "Implement REST client with API key auth, support gRPC for real-time streams, Websocket for bidirectional communication",
-      "dependencies": ["Manus API (US-TOOLS-010)", "Authentication System", "Task Queue System"],
+      "dependencies": [
+        "Manus API (US-TOOLS-010)",
+        "Authentication System",
+        "Task Queue System"
+      ],
       "estimatedHours": 22,
-      "tags": ["applications", "client", "local-execution", "openclaw"]
+      "tags": [
+        "applications",
+        "client",
+        "local-execution",
+        "openclaw"
+      ]
     },
     {
       "id": "US-APPS-004",
@@ -1275,9 +1650,18 @@
       "passes": false,
       "notes": "Allows Manus agents to execute code tasks locally with full control",
       "technicalNotes": "Use containerization (Docker) for isolation, implement resource limits via cgroups",
-      "dependencies": ["OpenClaw Client (US-APPS-003)", "Code Execution Engine"],
+      "dependencies": [
+        "OpenClaw Client (US-APPS-003)",
+        "Code Execution Engine"
+      ],
       "estimatedHours": 18,
-      "tags": ["applications", "runtime", "nodejs", "python", "execution"]
+      "tags": [
+        "applications",
+        "runtime",
+        "nodejs",
+        "python",
+        "execution"
+      ]
     },
     {
       "id": "US-APPS-005",
@@ -1302,9 +1686,17 @@
       "passes": false,
       "notes": "Connects to browsers running on the local machine for full control",
       "technicalNotes": "Use ChromeDevTools protocol or Playwright library, support CDP endpoint connection",
-      "dependencies": ["OpenClaw Client (US-APPS-003)"],
+      "dependencies": [
+        "OpenClaw Client (US-APPS-003)"
+      ],
       "estimatedHours": 20,
-      "tags": ["applications", "browser", "automation", "local", "chrome"]
+      "tags": [
+        "applications",
+        "browser",
+        "automation",
+        "local",
+        "chrome"
+      ]
     },
     {
       "id": "US-APPS-006",
@@ -1329,9 +1721,17 @@
       "passes": false,
       "notes": "Provides controlled access to local file system with safety guardrails",
       "technicalNotes": "Implement sandboxing with restricted path access, use OS-level permissions",
-      "dependencies": ["OpenClaw Client (US-APPS-003)", "Security Module"],
+      "dependencies": [
+        "OpenClaw Client (US-APPS-003)",
+        "Security Module"
+      ],
       "estimatedHours": 16,
-      "tags": ["applications", "file-system", "data-processing", "local"]
+      "tags": [
+        "applications",
+        "file-system",
+        "data-processing",
+        "local"
+      ]
     }
   ]
 }
