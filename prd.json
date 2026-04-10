@@ -642,5 +642,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-023",
+    "category": "Web App Features",
+    "title": "Data Pipelines",
+    "description": "Build data pipeline orchestration with ETL operations, scheduling, and error handling",
+    "acceptanceCriteria": [
+      "Implement data pipeline orchestration",
+      "Implement ETL operations with transformations",
+      "Support for parallel and sequential execution",
+      "Handle pipeline scheduling and triggers",
+      "Implement error handling and retry logic"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
