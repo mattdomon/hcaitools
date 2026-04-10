@@ -258,5 +258,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-011",
+    "category": "Web App Features",
+    "title": "Workflow Automation",
+    "description": "Build workflow engine with visual flow definition, action types, and state management",
+    "acceptanceCriteria": [
+      "Implement workflow engine with visual flow definition",
+      "Support multiple action types and conditionals",
+      "Implement workflow execution with state management",
+      "Handle workflow versioning and rollbacks",
+      "Support parallel and sequential execution"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
