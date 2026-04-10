@@ -210,5 +210,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-009",
+    "category": "Web App Features",
+    "title": "User Preferences & Settings",
+    "description": "Build user preferences system with theme, notifications, privacy, and security settings",
+    "acceptanceCriteria": [
+      "Implement user preferences with category organization",
+      "Support theme and appearance settings",
+      "Implement notification preferences by channel and type",
+      "Handle privacy and security settings",
+      "Support workspace and team settings"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
