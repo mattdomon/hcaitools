@@ -562,5 +562,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-020",
+    "category": "Integrations",
+    "title": "Backup & Disaster Recovery",
+    "description": "Build backup system with scheduled backups, incremental support, and point-in-time recovery",
+    "acceptanceCriteria": [
+      "Implement backup system with scheduled backups",
+      "Implement incremental and full backup support",
+      "Support multiple storage destinations",
+      "Handle backup encryption and compression",
+      "Implement point-in-time recovery"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
