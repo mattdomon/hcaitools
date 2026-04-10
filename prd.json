@@ -466,5 +466,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-017",
+    "category": "Integrations",
+    "title": "Task Scheduling & Cron Jobs",
+    "description": "Build task scheduler with cron parsing, multiple triggers, and monitoring",
+    "acceptanceCriteria": [
+      "Implement task scheduler with multiple trigger types",
+      "Implement cron expression parsing",
+      "Support recurring and one-time tasks",
+      "Handle task prioritization and queuing",
+      "Implement task monitoring and history"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
