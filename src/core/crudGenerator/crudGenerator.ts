@@ -21,7 +21,6 @@ import {
   ListOptions,
   ListResult,
   SoftDeletable,
-  ValidationRuleConfig,
 } from './types';
 
 export class CRUDGenerator<T extends { id: string }> implements CRUDOperations<T> {

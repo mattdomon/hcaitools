@@ -1,19 +1,40 @@
-{
-  "id": "US-WEBAPP-003",
-  "category": "Web App Features",
-  "title": "Database CRUD & Data Validation",
-  "description": "Generate complete CRUD interfaces with real-time validation and optimistic locking",
-  "acceptanceCriteria": [
-    "Auto-generate Create, Read, Update, Delete interfaces from data models",
-    "Implement field-level and cross-field validation rules",
-    "Support for optimistic locking with version fields",
-    "Real-time validation feedback as user types",
-    "Support for batch operations (bulk update, bulk delete)",
-    "Implement soft delete with recovery option",
-    "Generate audit trail for all data changes",
-    "Support for data import/export in multiple formats"
-  ],
-  "priority": 2,
-  "passes": true,
-  "notes": ""
-}
+[
+  {
+    "id": "US-WEBAPP-003",
+    "category": "Web App Features",
+    "title": "Database CRUD & Data Validation",
+    "description": "Generate complete CRUD interfaces with real-time validation and optimistic locking",
+    "acceptanceCriteria": [
+      "Auto-generate Create, Read, Update, Delete interfaces from data models",
+      "Implement field-level and cross-field validation rules",
+      "Support for optimistic locking with version fields",
+      "Real-time validation feedback as user types",
+      "Support for batch operations (bulk update, bulk delete)",
+      "Implement soft delete with recovery option",
+      "Generate audit trail for all data changes",
+      "Support for data import/export in multiple formats"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-004",
+    "category": "Web App Features",
+    "title": "Real-time Application Notifications",
+    "description": "WebSocket-based notification system with presence tracking and delivery analytics",
+    "acceptanceCriteria": [
+      "Implement real-time WebSocket notifications with connection management",
+      "Support multiple notification channels (websocket, email, push, SMS)",
+      "Track notification delivery status and read receipts",
+      "Implement user presence system with status updates",
+      "Support notification templates with variable substitution",
+      "Implement notification grouping and batching",
+      "Provide notification analytics and delivery reports",
+      "Support scheduled and recurring notifications"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
+  }
+]

@@ -17,13 +17,8 @@ import {
   SlackChannelType,
   SlackNotificationType,
   SlackReactionType,
-  SlackMessageType,
   SlackEvent,
   SendMessageOptions,
-  SlackChannelCreatedEvent,
-  SlackMessageEvent,
-  SlackReactionEvent,
-  SlackMemberJoinedChannelEvent,
 } from './types';
 
 export class SlackClientImpl implements SlackClient {
@@ -117,7 +112,7 @@ export class SlackClientImpl implements SlackClient {
     return Array.from(this.users.values()).filter((u) => !u.isBot);
   }
 
-  async inviteUser(channelId: string, userId: string): Promise<void> {
+  async inviteUser(channelId: string, _userId: string): Promise<void> {
     const channel = this.channels.get(channelId);
     if (!channel) {
       throw new Error(`Channel ${channelId} not found`);
@@ -127,7 +122,7 @@ export class SlackClientImpl implements SlackClient {
     this.channels.set(channelId, channel);
   }
 
-  async removeUser(channelId: string, userId: string): Promise<void> {
+  async removeUser(channelId: string, _userId: string): Promise<void> {
     const channel = this.channels.get(channelId);
     if (channel && channel.memberCount > 0) {
       channel.memberCount--;
@@ -354,7 +349,7 @@ export class SlackClientImpl implements SlackClient {
     };
   }
 
-  async generateIntelligentResponse(context: string): Promise<string> {
+  async generateIntelligentResponse(_context: string): Promise<string> {
     // Simple simulation - in production would use AI
     const responses = [
       `Based on the context, I suggest focusing on the key aspects mentioned.`,
