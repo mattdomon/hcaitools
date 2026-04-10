@@ -322,5 +322,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-013",
+    "category": "Web App Features",
+    "title": "Reporting & Business Intelligence",
+    "description": "Build report builder with chart types, scheduled generation, and drill-down capabilities",
+    "acceptanceCriteria": [
+      "Implement report builder with drag-and-drop interface",
+      "Support various chart types and visualizations",
+      "Support scheduled report generation",
+      "Handle report caching and export",
+      "Implement drill-down and filtering capabilities"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
