@@ -530,5 +530,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-019",
+    "category": "Integrations",
+    "title": "API Gateway & Load Balancing",
+    "description": "Build API gateway with routing, load balancing, and service discovery",
+    "acceptanceCriteria": [
+      "Implement API gateway with routing capabilities",
+      "Implement load balancing algorithms",
+      "Support request/response transformation",
+      "Handle rate limiting at gateway level",
+      "Implement service discovery"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
