@@ -194,5 +194,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-009",
+    "category": "Integrations",
+    "title": "SMS & Notifications",
+    "description": "Build SMS service with multi-provider support, templates, and two-way messaging",
+    "acceptanceCriteria": [
+      "Implement SMS service with multi-provider support",
+      "Support SMS templates with variable substitution",
+      "Handle SMS delivery tracking and status callbacks",
+      "Support for two-way SMS messaging",
+      "Implement SMS queueing with priority and scheduling"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
