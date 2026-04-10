@@ -91,5 +91,23 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-006",
+    "category": "Web App Features",
+    "title": "Advanced Search & Filtering",
+    "description": "Build powerful search engine with full-text search, faceted filtering, and geo-search",
+    "acceptanceCriteria": [
+      "Implement full-text search with tokenization and ranking",
+      "Support faceted filtering with multiple dimensions",
+      "Implement complex query builder with AND/OR/NOT operators",
+      "Provide search suggestions and autocomplete",
+      "Handle search ranking and relevance tuning",
+      "Support geo-search and location-based filtering",
+      "Implement search highlighting and snippets"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
