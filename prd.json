@@ -738,5 +738,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-026",
+    "category": "Integrations",
+    "title": "Payment Gateway Integration",
+    "description": "Build payment gateway with multiple providers, subscriptions, and dispute handling",
+    "acceptanceCriteria": [
+      "Implement payment gateway with multiple providers",
+      "Implement payment processing and authorization",
+      "Support for refunds and disputes",
+      "Handle webhooks for payment events",
+      "Implement subscription billing"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
