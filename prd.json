@@ -145,5 +145,22 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-007",
+    "category": "Integrations",
+    "title": "User Management & Authentication",
+    "description": "Build user management with JWT authentication, OAuth providers, and role-based access control",
+    "acceptanceCriteria": [
+      "Implement user registration and profile management",
+      "Implement JWT token authentication",
+      "Support OAuth 2.0 social login providers",
+      "Handle password reset and email verification",
+      "Implement session management and device tracking",
+      "Support role-based access control (RBAC)"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
