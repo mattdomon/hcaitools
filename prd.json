@@ -109,5 +109,23 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-006",
+    "category": "Integrations",
+    "title": "Webhook Management System",
+    "description": "Build webhook registry with event filtering, signature verification, and retry logic",
+    "acceptanceCriteria": [
+      "Implement webhook registry with URL management",
+      "Support event filtering and payload transformation",
+      "Implement webhook signing and signature verification",
+      "Handle retry logic with exponential backoff",
+      "Track delivery status and failure handling",
+      "Implement batch webhook delivery",
+      "Provide webhook statistics and monitoring"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
