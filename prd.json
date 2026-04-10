@@ -162,5 +162,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-008",
+    "category": "Integrations",
+    "title": "Email Service",
+    "description": "Build email service with SMTP and API provider support, templates, and delivery tracking",
+    "acceptanceCriteria": [
+      "Implement email service with SMTP and API provider support",
+      "Support email templates with variable substitution",
+      "Handle email queueing and delivery tracking",
+      "Support attachments and inline images",
+      "Implement bounce handling and unsubscribe management"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
