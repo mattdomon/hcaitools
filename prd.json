@@ -370,5 +370,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-014",
+    "category": "Integrations",
+    "title": "Message Queue System",
+    "description": "Build message queue with pub/sub pattern, queue management, and dead letter support",
+    "acceptanceCriteria": [
+      "Implement message queue with pub/sub pattern",
+      "Implement queue management with topics",
+      "Support message persistence and durability",
+      "Handle message ordering and prioritization",
+      "Implement dead letter queue for failed messages"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
