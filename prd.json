@@ -770,5 +770,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-027",
+    "category": "Integrations",
+    "title": "Data Warehouse Integration",
+    "description": "Build data warehouse connector with ETL pipelines, dimensional modeling, and lineage tracking",
+    "acceptanceCriteria": [
+      "Implement data warehouse connector",
+      "Implement ETL pipeline management",
+      "Support for dimensional modeling",
+      "Handle query optimization",
+      "Implement data lineage tracking"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
