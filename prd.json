@@ -546,5 +546,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-020",
+    "category": "Web App Features",
+    "title": "Internationalization (i18n)",
+    "description": "Build i18n system with locale management, translation, and formatting",
+    "acceptanceCriteria": [
+      "Implement internationalization with locale management",
+      "Implement message translation with interpolation",
+      "Support pluralization and gender handling",
+      "Handle date, time, and number formatting",
+      "Implement language detection and switching"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
