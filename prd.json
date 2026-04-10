@@ -482,5 +482,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-018",
+    "category": "Web App Features",
+    "title": "Feature Flags",
+    "description": "Build feature flag system with targeting rules, percentage rollouts, and user segments",
+    "acceptanceCriteria": [
+      "Implement feature flag system with targeting rules",
+      "Implement percentage-based rollouts",
+      "Support user segment targeting",
+      "Handle flag variations and experiments",
+      "Implement real-time flag updates"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
