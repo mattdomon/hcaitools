@@ -386,5 +386,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-015",
+    "category": "Web App Features",
+    "title": "API Documentation Generator",
+    "description": "Build OpenAPI/Swagger documentation generator with versioning and API explorer",
+    "acceptanceCriteria": [
+      "Implement OpenAPI/Swagger documentation generator",
+      "Implement endpoint documentation with request/response schemas",
+      "Support authentication and authorization docs",
+      "Handle versioning and changelog generation",
+      "Implement interactive API explorer"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
