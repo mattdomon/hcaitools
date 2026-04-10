@@ -578,5 +578,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-021",
+    "category": "Web App Features",
+    "title": "Webhooks & Events",
+    "description": "Build event-driven architecture with pub/sub, webhook delivery, and event replay",
+    "acceptanceCriteria": [
+      "Implement event-driven architecture with pub/sub",
+      "Implement webhook management and delivery",
+      "Support for event filtering and transformation",
+      "Handle event ordering and idempotency",
+      "Implement event replay and history"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
