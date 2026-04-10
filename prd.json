@@ -706,5 +706,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-025",
+    "category": "Web App Features",
+    "title": "Real-time Collaboration",
+    "description": "Build presence awareness, cursor sharing, document editing, and conflict resolution",
+    "acceptanceCriteria": [
+      "Implement presence awareness system",
+      "Implement cursor and selection sharing",
+      "Support for real-time document editing",
+      "Handle conflict resolution",
+      "Implement notification for collab events"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
