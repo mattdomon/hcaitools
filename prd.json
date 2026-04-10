@@ -226,5 +226,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-010",
+    "category": "Integrations",
+    "title": "API Rate Limiting & Throttling",
+    "description": "Build rate limiter with multiple algorithms, per-user/endpoint limits, and distributed support",
+    "acceptanceCriteria": [
+      "Implement rate limiter with multiple algorithms",
+      "Support per-user and per-endpoint rate limiting",
+      "Handle rate limit exceeded with proper error responses",
+      "Support distributed rate limiting",
+      "Implement request throttling and backpressure"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
