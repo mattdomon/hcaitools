@@ -226,7 +226,7 @@ export class SlackClientImpl implements SlackClient {
       throw new Error(`Message ${messageId} not found`);
     }
 
-    let existingReaction = message.reactions.find((r) => r.reaction === reaction);
+    const existingReaction = message.reactions.find((r) => r.reaction === reaction);
     if (existingReaction) {
       existingReaction.count++;
       if (!existingReaction.userIds.includes('bot')) {
@@ -578,21 +578,4 @@ export class SlackClientImpl implements SlackClient {
 
     return Math.max(-1, Math.min(1, score));
   }
-}
-
-// Type helpers for webhook data
-interface ChannelCreatedData {
-  channelName: string;
-  type: SlackChannelType;
-}
-
-interface MessageSentData {
-  messageId: string;
-  text: string;
-  threadId?: string;
-}
-
-interface ReactionAddedData {
-  messageId: string;
-  reaction: SlackReactionType;
 }

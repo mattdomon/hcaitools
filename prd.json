@@ -93,12 +93,12 @@
         "Support lead assignment to sales team members",
         "Integrate with email and calendar for outreach tracking",
         "Provide lead health scoring algorithm",
-       "Support bulk lead import/export in CSV format"
-       ],
-       "priority": 1,
-       "passes": true,
-       "notes": ""
-     },
+        "Support bulk lead import/export in CSV format"
+      ],
+      "priority": 1,
+      "passes": true,
+      "notes": ""
+    },
     {
       "id": "US-WEBAPP-002",
       "category": "Web App Features",
@@ -135,12 +135,12 @@
         "Support usage-based billing with metered pricing",
         "Track payment history and generate revenue reports"
       ],
-       "priority": 1,
-       "passes": true,
-       "notes": ""
-     },
-     {
-       "id": "US-INT-002",
+      "priority": 1,
+      "passes": true,
+      "notes": ""
+    },
+    {
+      "id": "US-INT-002",
       "category": "Integrations",
       "title": "Database Integration & Schema Management",
       "description": "Generate and manage database schemas, migrations, and CRUD operations automatically",
@@ -152,14 +152,14 @@
         "Generate indexes for performance optimization",
         "Support relationships (one-to-many, many-to-many)",
         "Implement data validation at database layer",
-       "Generate seeds and fixtures for testing"
-       ],
-       "priority": 2,
-       "passes": true,
-       "notes": ""
-     },
-     {
-       "id": "US-INT-003",
+        "Generate seeds and fixtures for testing"
+      ],
+      "priority": 2,
+      "passes": true,
+      "notes": ""
+    },
+    {
+      "id": "US-INT-003",
       "category": "Integrations",
       "title": "Slack Integration for Team Collaboration",
       "description": "Enable team communication through Slack with notifications, message generation, and channel management",
@@ -194,6 +194,101 @@
       ],
       "priority": 1,
       "passes": true,
+      "notes": ""
+    },
+    {
+      "id": "US-WEBAPP-003",
+      "category": "Web App Features",
+      "title": "Database CRUD & Data Validation",
+      "description": "Generate complete CRUD interfaces with real-time validation and optimistic locking",
+      "acceptanceCriteria": [
+        "Auto-generate Create, Read, Update, Delete interfaces from data models",
+        "Implement field-level and cross-field validation rules",
+        "Support for optimistic locking with version fields",
+        "Real-time validation feedback as user types",
+        "Support for batch operations (bulk update, bulk delete)",
+        "Implement soft delete with recovery option",
+        "Generate audit trail for all data changes",
+        "Support for data import/export in multiple formats"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-WEBAPP-004",
+      "category": "Web App Features",
+      "title": "Real-time Application Notifications",
+      "description": "Enable real-time notifications with presence awareness and delivery tracking",
+      "acceptanceCriteria": [
+        "Send real-time notifications via WebSocket",
+        "Track notification read/unread status",
+        "Support notification grouping and batching",
+        "Implement notification preferences per user",
+        "Show user presence (online, away, offline)",
+        "Support push notifications for mobile",
+        "Implement notification scheduling and snooze",
+        "Generate notification analytics and reports"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-WEBAPP-005",
+      "category": "Web App Features",
+      "title": "AI Chatbot Integration",
+      "description": "Deploy AI-powered chatbots with natural language understanding and context retention",
+      "acceptanceCriteria": [
+        "Support natural language queries and commands",
+        "Maintain conversation context across sessions",
+        "Integrate with knowledge base for answers",
+        "Support multi-turn conversations",
+        "Handle ambiguous queries with clarification",
+        "Transfer to human agent when needed",
+        "Generate chatbot analytics and insights",
+        "Train chatbot on custom datasets"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-INT-004",
+      "category": "Integrations",
+      "title": "REST API Integration Framework",
+      "description": "Build universal API connector with authentication, rate limiting, and error handling",
+      "acceptanceCriteria": [
+        "Support OAuth 2.0, API key, and JWT authentication",
+        "Implement automatic rate limiting and backoff",
+        "Handle authentication refresh tokens",
+        "Support request/response transformation",
+        "Implement circuit breaker pattern",
+        "Generate API SDK from OpenAPI spec",
+        "Log all API calls with timing metrics",
+        "Support webhook registration and processing"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "US-INT-005",
+      "category": "Integrations",
+      "title": "Google Maps Integration",
+      "description": "Add location services with maps, geocoding, and route optimization",
+      "acceptanceCriteria": [
+        "Display interactive maps with custom markers",
+        "Implement geocoding (address to coordinates)",
+        "Support reverse geocoding",
+        "Calculate routes between multiple points",
+        "Optimize routes for distance or time",
+        "Support real-time traffic data",
+        "Generate location-based alerts",
+        "Store and analyze location history"
+      ],
+      "priority": 2,
+      "passes": false,
       "notes": ""
     }
   ]

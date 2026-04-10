@@ -4,7 +4,6 @@
  */
 
 export type SlackChannelType = 'public' | 'private' | 'direct' | 'mpim';
-export type SlackMessageType = 'message' | 'thread' | 'reply' | 'broadcast';
 export type SlackNotificationType = 'info' | 'success' | 'warning' | 'error' | 'reminder';
 export type SlackCommandType = 'task_create' | 'task_update' | 'task_list' | 'task_complete' | 'status_update' | 'help';
 export type SlackReactionType = 'thumbsup' | 'thumbsdown' | 'heart' | 'eyes' | '+1' | '-1';
