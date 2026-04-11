@@ -914,5 +914,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-031",
+    "category": "Web App Features",
+    "title": "Activity Feeds & Updates",
+    "description": "Build activity feed generation with aggregation, filtering, and real-time updates",
+    "acceptanceCriteria": [
+      "Implement activity feed generation",
+      "Implement feed aggregation and filtering",
+      "Support for real-time updates",
+      "Handle user-specific feeds",
+      "Implement feed caching"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
