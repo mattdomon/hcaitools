@@ -1010,5 +1010,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-034",
+    "category": "Web App Features",
+    "title": "Web3 & Blockchain Integration",
+    "description": "Build blockchain wallet management, smart contracts, NFTs, and wallet connection auth",
+    "acceptanceCriteria": [
+      "Implement blockchain wallet management",
+      "Implement smart contract interactions",
+      "Support for NFT minting and transfer",
+      "Handle transaction signing and confirmation",
+      "Implement wallet connection authentication"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
