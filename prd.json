@@ -802,5 +802,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-028",
+    "category": "Integrations",
+    "title": "Search Engine Integration",
+    "description": "Build search index management with faceted search, analytics, and suggestions",
+    "acceptanceCriteria": [
+      "Implement search index management",
+      "Implement search query building",
+      "Support for faceted search",
+      "Handle search analytics",
+      "Implement search suggestions"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
