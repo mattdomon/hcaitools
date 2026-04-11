@@ -882,5 +882,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-030",
+    "category": "Web App Features",
+    "title": "Comments & Reviews System",
+    "description": "Build comment threading, review ratings, reactions, moderation, and sentiment analysis",
+    "acceptanceCriteria": [
+      "Implement comment threading system",
+      "Implement review ratings and responses",
+      "Support for reactions and likes",
+      "Handle moderation and reporting",
+      "Implement sentiment analysis"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
