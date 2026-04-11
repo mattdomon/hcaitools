@@ -6,10 +6,7 @@
 import crypto from 'crypto';
 import {
   SocialPlatform,
-  PostType,
-  PostStatus,
   CommentStatus,
-  MessageStatus,
   MediaAttachment,
   SocialPost,
   ScheduledPost,
@@ -315,7 +312,7 @@ export class SocialMediaServiceImpl implements SocialMediaService {
       throw new Error(`No client for platform ${post.platform}`);
     }
 
-    const result = await client.post(post.content, post.media);
+    const _result = await client.post(post.content, post.media);
     post.status = 'published';
     post.publishedAt = new Date();
     post.updatedAt = new Date();

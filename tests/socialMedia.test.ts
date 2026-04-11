@@ -6,9 +6,6 @@ import { SocialMediaServiceImpl } from '../src/core/socialMedia/socialMedia';
 import { SocialMediaManus } from '../src/core/socialMedia';
 import {
   SocialPlatform,
-  PostType,
-  PostStatus,
-  CommentStatus,
   MediaType,
 } from '../src/core/socialMedia/types';
 
