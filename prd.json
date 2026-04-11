@@ -946,5 +946,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-032",
+    "category": "Web App Features",
+    "title": "Tagging & Categorization",
+    "description": "Build tag management with auto-tagging, hierarchical categories, and recommendations",
+    "acceptanceCriteria": [
+      "Implement tag management system",
+      "Implement auto-tagging with AI",
+      "Support for hierarchical categories",
+      "Handle tag analytics",
+      "Implement tag-based recommendations"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
