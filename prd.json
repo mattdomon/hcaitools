@@ -930,5 +930,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-032",
+    "category": "Integrations",
+    "title": "Event Sourcing & CQRS",
+    "description": "Build event store, CQRS command/query separation, event replay, and projections",
+    "acceptanceCriteria": [
+      "Implement event store with persistence",
+      "Implement CQRS command and query separation",
+      "Support for event replay and projections",
+      "Handle snapshots for performance",
+      "Implement event versioning"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
