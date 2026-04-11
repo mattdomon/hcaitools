@@ -72,3 +72,23 @@ export {
   isPDFGenerationError,
   getErrorMessage,
 } from './pdfGeneration';
+
+export {
+  PDFContentBuilder,
+  PDFStyleManager,
+  PDFPageLayout,
+  PDFValidationService,
+  PDFBatchProcessor,
+  ContentBlock,
+  TextBlock,
+  ImageBlock,
+  TableBlock,
+  SpacerBlock,
+  GroupBlock,
+  ComposableBlock,
+  createContentBuilder,
+  createStyleManager,
+  createPageLayout,
+  createValidationService,
+  createBatchProcessor,
+} from './advanced';

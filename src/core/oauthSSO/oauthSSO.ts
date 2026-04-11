@@ -63,7 +63,7 @@ const generateCodeChallenge = (verifier: string): string => {
   return base64urlEncode(hash);
 };
 
-const PROVIDER_CONFIGS: Record<OAuthProvider, Omit<OAuthConfig, 'clientId' | 'clientSecret' | 'callbackUrl'>> = {
+const _PROVIDER_CONFIGS: Record<OAuthProvider, Omit<OAuthConfig, 'clientId' | 'clientSecret' | 'callbackUrl'>> = {
   google: {
     authorizationUrl: 'https://accounts.google.com/o/oauth2/v2/auth',
     tokenUrl: 'https://oauth2.googleapis.com/token',
