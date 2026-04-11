@@ -850,5 +850,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-WEBAPP-029",
+    "category": "Web App Features",
+    "title": "Notifications & Alerts System",
+    "description": "Build notification delivery with alert rules, templates, and escalation policies",
+    "acceptanceCriteria": [
+      "Implement notification delivery system",
+      "Implement alert rules and thresholds",
+      "Support multiple notification channels",
+      "Handle notification templates",
+      "Implement escalation policies"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
