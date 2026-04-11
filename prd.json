@@ -866,5 +866,21 @@
     "priority": 2,
     "passes": true,
     "notes": ""
+  },
+  {
+    "id": "US-INT-030",
+    "category": "Integrations",
+    "title": "API Key Management",
+    "description": "Build API key management with generation, rotation, scoped permissions, and usage tracking",
+    "acceptanceCriteria": [
+      "Implement API key generation and management",
+      "Implement key rotation",
+      "Support for scoped permissions",
+      "Handle key validation and authentication",
+      "Implement usage tracking and limits"
+    ],
+    "priority": 2,
+    "passes": true,
+    "notes": ""
   }
 ]
